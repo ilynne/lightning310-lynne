@@ -6,6 +6,10 @@ gem 'rails', '4.1.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+group :production do
+  gem 'pg'
+end
+
 # added gems
 gem 'devise'
 gem 'omniauth-github'
